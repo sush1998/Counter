@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link rel="stylesheet" href="counter.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script
+			defer
+			src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+			integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+			crossorigin="anonymous"
+	></script>
+    
+</head>
+
+<nav class="nav">
+    <ul>
+        <li class="nav-text">
+            <p class="nav-text">Counter</p>
+        </li>
+        <li class="theme">
+            <label class="switch">
+                <input type="checkbox" id="btn-theme" onclick="validate()" title="Change Theme">
+                <span class="slider round"></span>
+            </label>
+        </li>
+
+    </ul>
+
+</nav>
+<div class="whole">
+<body id="body">
+    <hr>
+    <div class="intro" id="text">
+        <p>The Counter App project is simply in HTML, CSS, and JavaScript. Taking about the features of this system, the user can add the point as many as they want and also lower the count as per their wish. You just have to click on the <i id="icon1" class="fas fa-plus"></i> to add the point while click on the <i class="fas fa-minus"></i> to delete one point. You can also check the theme bt clicking the <b><i class="fas fa-toggle-on"></i></b> button.</p>
+    </div>
+    
+    <div class="container" id="block">
+        <div class="display">
+            <span  id="display" >--</span>
+        </div>
+        <div class="vertical-divider"></div>
+        <div class="btn-group">
+            <button class="btn" id="decrease" onclick="descreaseCount()" title="Decrease count">-</button>
+            <div class="divider"></div>
+            <button class="btn"  id="increase" onclick="increaseCount()" title="Increase count">+</button>
+            <div class="vertical-divider"></div>
+        </div>
+    </div>
+    
+</body>
+</div>
+
+<script src="counter.js"></script>
+</html>
