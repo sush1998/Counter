@@ -1,5 +1,5 @@
 # Counter
-The Counter App project is simply in HTML, CSS, and JavaScript. Taking about the features of this system, the user can add the point as many as they want and also lower the count as per their wish. You just have to click on the "INCREASE" to add the point while click on the "DECREASE" to delete one point. You can also check the theme bt clicking the "TOGGLE" button.
+The Counter App project is simply in HTML, CSS, and JavaScript. Taking about the features of this system, the user can add the point as many as they want and also lower the count as per their wish. You just have to click on the "INCREASE" to add the point while click on the "DECREASE" to delete one point. You can also check the theme bt clicking the "TOGGLE" button in the navigation bar.
 
 # Light_Theme
 ![Counter_light](https://user-images.githubusercontent.com/48146645/119134528-dc40f680-ba5a-11eb-9499-4786e3676be8.JPG)
